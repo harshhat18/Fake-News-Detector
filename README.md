@@ -1,6 +1,6 @@
-# Text Classification API
+# Fake News Detector
 
-Welcome to the **Text Classification API**! This Flask application allows users to classify text inputs using various machine learning models, including Logistic Regression, Decision Trees, and Random Forest Classifiers. 
+Welcome to the **Fake News Detector**! This Flask application allows users to classify text inputs using various machine learning models, including Logistic Regression, Decision Trees, and Random Forest Classifiers. 
 
 ## Features
 
