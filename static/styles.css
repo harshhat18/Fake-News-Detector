@@ -1,0 +1,73 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/static/background.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    padding: 5px;
+}
+h1 {
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image img {
+    max-width: 100%; 
+    width: 300px;    
+    height: auto;    
+}
+
+form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+#model-prediction {
+    font-weight: bold;
+    color: #333;
+}
+
+.prediction-real {
+    color: green;
+}
+
+.prediction-fake {
+    color: red;
+}
